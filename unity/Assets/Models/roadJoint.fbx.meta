@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 63601c2803a984950a36f8aefd0f6788
+timeCreated: 1503438185
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ADJ_JOINT_L_16
+    100002: ADJ_JOINT_L_17
+    100004: ADJ_JOINT_L_18
+    100006: ADJ_JOINT_L_19
+    100008: ADJ_JOINT_L_20
+    100010: ADJ_JOINT_L_21
+    100012: ADJ_JOINT_L_22
+    100014: ADJ_JOINT_L_23
+    100016: ADJ_JOINT_L_24
+    100018: ADJ_JOINT_L_25
+    100020: ADJ_JOINT_L_26
+    100022: ADJ_JOINT_L_27
+    100024: ADJ_JOINT_L_28
+    100026: ADJ_JOINT_L_29
+    100028: ADJ_JOINT_L_30
+    100030: ADJ_JOINT_L_31
+    100032: ADJ_JOINT_L_32
+    100034: ADJ_JOINT_L_33
+    100036: ADJ_JOINT_L_34
+    100038: ADJ_JOINT_L_35
+    100040: ADJ_JOINT_L_36
+    100042: ADJ_JOINT_L_37
+    100044: ADJ_JOINT_L_38
+    100046: ADJ_JOINT_L_39
+    100048: ADJ_JOINT_L_40
+    100050: ADJ_JOINT_L_41
+    100052: ADJ_JOINT_L_42
+    100054: ADJ_JOINT_L_43
+    100056: joint1
+    100058: joint10
+    100060: joint11
+    100062: joint12
+    100064: joint13
+    100066: joint14
+    100068: joint15
+    100070: joint2
+    100072: joint3
+    100074: joint4
+    100076: joint5
+    100078: joint6
+    100080: joint7
+    100082: joint8
+    100084: joint9
+    100086: ROAD_JOINT_B47
+    100088: //RootNode
+    400000: ADJ_JOINT_L_16
+    400002: ADJ_JOINT_L_17
+    400004: ADJ_JOINT_L_18
+    400006: ADJ_JOINT_L_19
+    400008: ADJ_JOINT_L_20
+    400010: ADJ_JOINT_L_21
+    400012: ADJ_JOINT_L_22
+    400014: ADJ_JOINT_L_23
+    400016: ADJ_JOINT_L_24
+    400018: ADJ_JOINT_L_25
+    400020: ADJ_JOINT_L_26
+    400022: ADJ_JOINT_L_27
+    400024: ADJ_JOINT_L_28
+    400026: ADJ_JOINT_L_29
+    400028: ADJ_JOINT_L_30
+    400030: ADJ_JOINT_L_31
+    400032: ADJ_JOINT_L_32
+    400034: ADJ_JOINT_L_33
+    400036: ADJ_JOINT_L_34
+    400038: ADJ_JOINT_L_35
+    400040: ADJ_JOINT_L_36
+    400042: ADJ_JOINT_L_37
+    400044: ADJ_JOINT_L_38
+    400046: ADJ_JOINT_L_39
+    400048: ADJ_JOINT_L_40
+    400050: ADJ_JOINT_L_41
+    400052: ADJ_JOINT_L_42
+    400054: ADJ_JOINT_L_43
+    400056: joint1
+    400058: joint10
+    400060: joint11
+    400062: joint12
+    400064: joint13
+    400066: joint14
+    400068: joint15
+    400070: joint2
+    400072: joint3
+    400074: joint4
+    400076: joint5
+    400078: joint6
+    400080: joint7
+    400082: joint8
+    400084: joint9
+    400086: ROAD_JOINT_B47
+    400088: //RootNode
+    4300000: ROAD_JOINT_B47
+    7400000: roadSwing
+    9500000: //RootNode
+    13700000: ROAD_JOINT_B47
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: roadSwing
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/ADJ_JOINT_L_23
+        weight: 1
+      - path: joint1/joint2/ADJ_JOINT_L_35
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/ADJ_JOINT_L_24
+        weight: 1
+      - path: joint1/joint2/joint3/ADJ_JOINT_L_42
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/ADJ_JOINT_L_25
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/ADJ_JOINT_L_41
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/ADJ_JOINT_L_26
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/ADJ_JOINT_L_40
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/ADJ_JOINT_L_27
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/ADJ_JOINT_L_32
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/ADJ_JOINT_L_28
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/ADJ_JOINT_L_31
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/ADJ_JOINT_L_29
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/ADJ_JOINT_L_30
+        weight: 1
+      - path: joint1/joint9
+        weight: 1
+      - path: joint1/joint9/ADJ_JOINT_L_22
+        weight: 1
+      - path: joint1/joint9/ADJ_JOINT_L_39
+        weight: 1
+      - path: joint1/joint9/joint10
+        weight: 1
+      - path: joint1/joint9/joint10/ADJ_JOINT_L_21
+        weight: 1
+      - path: joint1/joint9/joint10/ADJ_JOINT_L_33
+        weight: 1
+      - path: joint1/joint9/joint10/joint11
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/ADJ_JOINT_L_20
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/ADJ_JOINT_L_36
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12/ADJ_JOINT_L_19
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12/ADJ_JOINT_L_38
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12/joint13/ADJ_JOINT_L_16
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12/joint13/ADJ_JOINT_L_43
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12/joint13/joint14/ADJ_JOINT_L_17
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12/joint13/joint14/ADJ_JOINT_L_34
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12/joint13/joint14/joint15
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12/joint13/joint14/joint15/ADJ_JOINT_L_18
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12/joint13/joint14/joint15/ADJ_JOINT_L_37
+        weight: 1
+      - path: ROAD_JOINT_B47
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

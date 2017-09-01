@@ -1,0 +1,1448 @@
+fileFormatVersion: 2
+guid: ca6250107833a482f92ce0b49b0f6a54
+timeCreated: 1503585940
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BoneGroup
+    100002: joint1
+    100004: joint10
+    100006: joint100
+    100008: joint101
+    100010: joint102
+    100012: joint103
+    100014: joint104
+    100016: joint105
+    100018: joint106
+    100020: joint107
+    100022: joint108
+    100024: joint109
+    100026: joint11
+    100028: joint110
+    100030: joint111
+    100032: joint112
+    100034: joint113
+    100036: joint114
+    100038: joint115
+    100040: joint116
+    100042: joint117
+    100044: joint118
+    100046: joint119
+    100048: joint12
+    100050: joint120
+    100052: joint121
+    100054: joint122
+    100056: joint123
+    100058: joint124
+    100060: joint125
+    100062: joint126
+    100064: joint127
+    100066: joint128
+    100068: joint129
+    100070: joint13
+    100072: joint130
+    100074: joint131
+    100076: joint132
+    100078: joint133
+    100080: joint134
+    100082: joint135
+    100084: joint136
+    100086: joint137
+    100088: joint138
+    100090: joint139
+    100092: joint14
+    100094: joint140
+    100096: joint141
+    100098: joint142
+    100100: joint143
+    100102: joint144
+    100104: joint145
+    100106: joint146
+    100108: joint147
+    100110: joint148
+    100112: joint149
+    100114: joint15
+    100116: joint150
+    100118: joint151
+    100120: joint152
+    100122: joint153
+    100124: joint154
+    100126: joint155
+    100128: joint156
+    100130: joint157
+    100132: joint158
+    100134: joint159
+    100136: joint16
+    100138: joint160
+    100140: joint161
+    100142: joint162
+    100144: joint163
+    100146: joint164
+    100148: joint165
+    100150: joint166
+    100152: joint167
+    100154: joint168
+    100156: joint169
+    100158: joint17
+    100160: joint170
+    100162: joint171
+    100164: joint172
+    100166: joint173
+    100168: joint174
+    100170: joint175
+    100172: joint176
+    100174: joint177
+    100176: joint178
+    100178: joint179
+    100180: joint18
+    100182: joint180
+    100184: joint181
+    100186: joint182
+    100188: joint183
+    100190: joint184
+    100192: joint185
+    100194: joint186
+    100196: joint187
+    100198: joint188
+    100200: joint189
+    100202: joint19
+    100204: joint190
+    100206: joint191
+    100208: joint192
+    100210: joint193
+    100212: joint194
+    100214: joint195
+    100216: joint196
+    100218: joint197
+    100220: joint198
+    100222: joint199
+    100224: joint2
+    100226: joint20
+    100228: joint200
+    100230: joint201
+    100232: joint202
+    100234: joint203
+    100236: joint204
+    100238: joint205
+    100240: joint206
+    100242: joint207
+    100244: joint208
+    100246: joint209
+    100248: joint21
+    100250: joint210
+    100252: joint211
+    100254: joint212
+    100256: joint213
+    100258: joint214
+    100260: joint215
+    100262: joint22
+    100264: joint23
+    100266: joint24
+    100268: joint25
+    100270: joint26
+    100272: joint27
+    100274: joint28
+    100276: joint29
+    100278: joint3
+    100280: joint30
+    100282: joint31
+    100284: joint32
+    100286: joint33
+    100288: joint34
+    100290: joint35
+    100292: joint36
+    100294: joint37
+    100296: joint38
+    100298: joint39
+    100300: joint4
+    100302: joint40
+    100304: joint41
+    100306: joint42
+    100308: joint43
+    100310: joint44
+    100312: joint45
+    100314: joint46
+    100316: joint47
+    100318: joint48
+    100320: joint49
+    100322: joint5
+    100324: joint50
+    100326: joint51
+    100328: joint52
+    100330: joint53
+    100332: joint54
+    100334: joint55
+    100336: joint56
+    100338: joint57
+    100340: joint58
+    100342: joint59
+    100344: joint6
+    100346: joint60
+    100348: joint61
+    100350: joint62
+    100352: joint63
+    100354: joint64
+    100356: joint65
+    100358: joint66
+    100360: joint67
+    100362: joint68
+    100364: joint69
+    100366: joint7
+    100368: joint70
+    100370: joint71
+    100372: joint72
+    100374: joint73
+    100376: joint74
+    100378: joint75
+    100380: joint76
+    100382: joint77
+    100384: joint78
+    100386: joint79
+    100388: joint8
+    100390: joint80
+    100392: joint81
+    100394: joint82
+    100396: joint83
+    100398: joint84
+    100400: joint85
+    100402: joint86
+    100404: joint87
+    100406: joint88
+    100408: joint89
+    100410: joint9
+    100412: joint90
+    100414: joint91
+    100416: joint92
+    100418: joint93
+    100420: joint94
+    100422: joint95
+    100424: joint96
+    100426: joint97
+    100428: joint98
+    100430: joint99
+    100432: MAIN_MESH1
+    100434: //RootNode
+    400000: BoneGroup
+    400002: joint1
+    400004: joint10
+    400006: joint100
+    400008: joint101
+    400010: joint102
+    400012: joint103
+    400014: joint104
+    400016: joint105
+    400018: joint106
+    400020: joint107
+    400022: joint108
+    400024: joint109
+    400026: joint11
+    400028: joint110
+    400030: joint111
+    400032: joint112
+    400034: joint113
+    400036: joint114
+    400038: joint115
+    400040: joint116
+    400042: joint117
+    400044: joint118
+    400046: joint119
+    400048: joint12
+    400050: joint120
+    400052: joint121
+    400054: joint122
+    400056: joint123
+    400058: joint124
+    400060: joint125
+    400062: joint126
+    400064: joint127
+    400066: joint128
+    400068: joint129
+    400070: joint13
+    400072: joint130
+    400074: joint131
+    400076: joint132
+    400078: joint133
+    400080: joint134
+    400082: joint135
+    400084: joint136
+    400086: joint137
+    400088: joint138
+    400090: joint139
+    400092: joint14
+    400094: joint140
+    400096: joint141
+    400098: joint142
+    400100: joint143
+    400102: joint144
+    400104: joint145
+    400106: joint146
+    400108: joint147
+    400110: joint148
+    400112: joint149
+    400114: joint15
+    400116: joint150
+    400118: joint151
+    400120: joint152
+    400122: joint153
+    400124: joint154
+    400126: joint155
+    400128: joint156
+    400130: joint157
+    400132: joint158
+    400134: joint159
+    400136: joint16
+    400138: joint160
+    400140: joint161
+    400142: joint162
+    400144: joint163
+    400146: joint164
+    400148: joint165
+    400150: joint166
+    400152: joint167
+    400154: joint168
+    400156: joint169
+    400158: joint17
+    400160: joint170
+    400162: joint171
+    400164: joint172
+    400166: joint173
+    400168: joint174
+    400170: joint175
+    400172: joint176
+    400174: joint177
+    400176: joint178
+    400178: joint179
+    400180: joint18
+    400182: joint180
+    400184: joint181
+    400186: joint182
+    400188: joint183
+    400190: joint184
+    400192: joint185
+    400194: joint186
+    400196: joint187
+    400198: joint188
+    400200: joint189
+    400202: joint19
+    400204: joint190
+    400206: joint191
+    400208: joint192
+    400210: joint193
+    400212: joint194
+    400214: joint195
+    400216: joint196
+    400218: joint197
+    400220: joint198
+    400222: joint199
+    400224: joint2
+    400226: joint20
+    400228: joint200
+    400230: joint201
+    400232: joint202
+    400234: joint203
+    400236: joint204
+    400238: joint205
+    400240: joint206
+    400242: joint207
+    400244: joint208
+    400246: joint209
+    400248: joint21
+    400250: joint210
+    400252: joint211
+    400254: joint212
+    400256: joint213
+    400258: joint214
+    400260: joint215
+    400262: joint22
+    400264: joint23
+    400266: joint24
+    400268: joint25
+    400270: joint26
+    400272: joint27
+    400274: joint28
+    400276: joint29
+    400278: joint3
+    400280: joint30
+    400282: joint31
+    400284: joint32
+    400286: joint33
+    400288: joint34
+    400290: joint35
+    400292: joint36
+    400294: joint37
+    400296: joint38
+    400298: joint39
+    400300: joint4
+    400302: joint40
+    400304: joint41
+    400306: joint42
+    400308: joint43
+    400310: joint44
+    400312: joint45
+    400314: joint46
+    400316: joint47
+    400318: joint48
+    400320: joint49
+    400322: joint5
+    400324: joint50
+    400326: joint51
+    400328: joint52
+    400330: joint53
+    400332: joint54
+    400334: joint55
+    400336: joint56
+    400338: joint57
+    400340: joint58
+    400342: joint59
+    400344: joint6
+    400346: joint60
+    400348: joint61
+    400350: joint62
+    400352: joint63
+    400354: joint64
+    400356: joint65
+    400358: joint66
+    400360: joint67
+    400362: joint68
+    400364: joint69
+    400366: joint7
+    400368: joint70
+    400370: joint71
+    400372: joint72
+    400374: joint73
+    400376: joint74
+    400378: joint75
+    400380: joint76
+    400382: joint77
+    400384: joint78
+    400386: joint79
+    400388: joint8
+    400390: joint80
+    400392: joint81
+    400394: joint82
+    400396: joint83
+    400398: joint84
+    400400: joint85
+    400402: joint86
+    400404: joint87
+    400406: joint88
+    400408: joint89
+    400410: joint9
+    400412: joint90
+    400414: joint91
+    400416: joint92
+    400418: joint93
+    400420: joint94
+    400422: joint95
+    400424: joint96
+    400426: joint97
+    400428: joint98
+    400430: joint99
+    400432: MAIN_MESH1
+    400434: //RootNode
+    4300000: MAIN_MESH1
+    7400000: animIn
+    7400002: idle
+    7400004: animOut
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: MAIN_MESH1
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: animIn
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneGroup
+        weight: 1
+      - path: BoneGroup/joint1
+        weight: 1
+      - path: BoneGroup/joint2
+        weight: 1
+      - path: BoneGroup/joint3
+        weight: 1
+      - path: BoneGroup/joint4
+        weight: 1
+      - path: BoneGroup/joint5
+        weight: 1
+      - path: BoneGroup/joint6
+        weight: 1
+      - path: BoneGroup/joint7
+        weight: 1
+      - path: BoneGroup/joint8
+        weight: 1
+      - path: BoneGroup/joint9
+        weight: 1
+      - path: BoneGroup/joint10
+        weight: 1
+      - path: BoneGroup/joint11
+        weight: 1
+      - path: BoneGroup/joint12
+        weight: 1
+      - path: BoneGroup/joint13
+        weight: 1
+      - path: BoneGroup/joint14
+        weight: 1
+      - path: BoneGroup/joint15
+        weight: 1
+      - path: BoneGroup/joint16
+        weight: 1
+      - path: BoneGroup/joint17
+        weight: 1
+      - path: BoneGroup/joint18
+        weight: 1
+      - path: BoneGroup/joint19
+        weight: 1
+      - path: BoneGroup/joint20
+        weight: 1
+      - path: BoneGroup/joint21
+        weight: 1
+      - path: BoneGroup/joint22
+        weight: 1
+      - path: BoneGroup/joint23
+        weight: 1
+      - path: BoneGroup/joint24
+        weight: 1
+      - path: BoneGroup/joint25
+        weight: 1
+      - path: BoneGroup/joint26
+        weight: 1
+      - path: BoneGroup/joint27
+        weight: 1
+      - path: BoneGroup/joint28
+        weight: 1
+      - path: BoneGroup/joint29
+        weight: 1
+      - path: BoneGroup/joint30
+        weight: 1
+      - path: BoneGroup/joint31
+        weight: 1
+      - path: BoneGroup/joint32
+        weight: 1
+      - path: BoneGroup/joint33
+        weight: 1
+      - path: BoneGroup/joint34
+        weight: 1
+      - path: BoneGroup/joint35
+        weight: 1
+      - path: BoneGroup/joint36
+        weight: 1
+      - path: BoneGroup/joint37
+        weight: 1
+      - path: BoneGroup/joint38
+        weight: 1
+      - path: BoneGroup/joint39
+        weight: 1
+      - path: BoneGroup/joint40
+        weight: 1
+      - path: BoneGroup/joint41
+        weight: 1
+      - path: BoneGroup/joint42
+        weight: 1
+      - path: BoneGroup/joint43
+        weight: 1
+      - path: BoneGroup/joint44
+        weight: 1
+      - path: BoneGroup/joint45
+        weight: 1
+      - path: BoneGroup/joint46
+        weight: 1
+      - path: BoneGroup/joint47
+        weight: 1
+      - path: BoneGroup/joint48
+        weight: 1
+      - path: BoneGroup/joint49
+        weight: 1
+      - path: BoneGroup/joint50
+        weight: 1
+      - path: BoneGroup/joint51
+        weight: 1
+      - path: BoneGroup/joint52
+        weight: 1
+      - path: BoneGroup/joint53
+        weight: 1
+      - path: BoneGroup/joint54
+        weight: 1
+      - path: BoneGroup/joint55
+        weight: 1
+      - path: BoneGroup/joint56
+        weight: 1
+      - path: BoneGroup/joint57
+        weight: 1
+      - path: BoneGroup/joint58
+        weight: 1
+      - path: BoneGroup/joint59
+        weight: 1
+      - path: BoneGroup/joint60
+        weight: 1
+      - path: BoneGroup/joint61
+        weight: 1
+      - path: BoneGroup/joint62
+        weight: 1
+      - path: BoneGroup/joint63
+        weight: 1
+      - path: BoneGroup/joint64
+        weight: 1
+      - path: BoneGroup/joint65
+        weight: 1
+      - path: BoneGroup/joint66
+        weight: 1
+      - path: BoneGroup/joint67
+        weight: 1
+      - path: BoneGroup/joint68
+        weight: 1
+      - path: BoneGroup/joint69
+        weight: 1
+      - path: BoneGroup/joint70
+        weight: 1
+      - path: BoneGroup/joint71
+        weight: 1
+      - path: BoneGroup/joint72
+        weight: 1
+      - path: BoneGroup/joint73
+        weight: 1
+      - path: BoneGroup/joint74
+        weight: 1
+      - path: BoneGroup/joint75
+        weight: 1
+      - path: BoneGroup/joint76
+        weight: 1
+      - path: BoneGroup/joint77
+        weight: 1
+      - path: BoneGroup/joint78
+        weight: 1
+      - path: BoneGroup/joint79
+        weight: 1
+      - path: BoneGroup/joint80
+        weight: 1
+      - path: BoneGroup/joint81
+        weight: 1
+      - path: BoneGroup/joint82
+        weight: 1
+      - path: BoneGroup/joint83
+        weight: 1
+      - path: BoneGroup/joint84
+        weight: 1
+      - path: BoneGroup/joint85
+        weight: 1
+      - path: BoneGroup/joint86
+        weight: 1
+      - path: BoneGroup/joint87
+        weight: 1
+      - path: BoneGroup/joint88
+        weight: 1
+      - path: BoneGroup/joint89
+        weight: 1
+      - path: BoneGroup/joint90
+        weight: 1
+      - path: BoneGroup/joint91
+        weight: 1
+      - path: BoneGroup/joint92
+        weight: 1
+      - path: BoneGroup/joint93
+        weight: 1
+      - path: BoneGroup/joint94
+        weight: 1
+      - path: BoneGroup/joint95
+        weight: 1
+      - path: BoneGroup/joint96
+        weight: 1
+      - path: BoneGroup/joint97
+        weight: 1
+      - path: BoneGroup/joint98
+        weight: 1
+      - path: BoneGroup/joint99
+        weight: 1
+      - path: BoneGroup/joint100
+        weight: 1
+      - path: BoneGroup/joint101
+        weight: 1
+      - path: BoneGroup/joint102
+        weight: 1
+      - path: BoneGroup/joint103
+        weight: 1
+      - path: BoneGroup/joint104
+        weight: 1
+      - path: BoneGroup/joint105
+        weight: 1
+      - path: BoneGroup/joint106
+        weight: 1
+      - path: BoneGroup/joint107
+        weight: 1
+      - path: BoneGroup/joint108
+        weight: 1
+      - path: BoneGroup/joint109
+        weight: 1
+      - path: BoneGroup/joint110
+        weight: 1
+      - path: BoneGroup/joint111
+        weight: 1
+      - path: BoneGroup/joint112
+        weight: 1
+      - path: BoneGroup/joint113
+        weight: 1
+      - path: BoneGroup/joint114
+        weight: 1
+      - path: BoneGroup/joint115
+        weight: 1
+      - path: BoneGroup/joint116
+        weight: 1
+      - path: BoneGroup/joint117
+        weight: 1
+      - path: BoneGroup/joint118
+        weight: 1
+      - path: BoneGroup/joint119
+        weight: 1
+      - path: BoneGroup/joint120
+        weight: 1
+      - path: BoneGroup/joint121
+        weight: 1
+      - path: BoneGroup/joint122
+        weight: 1
+      - path: BoneGroup/joint123
+        weight: 1
+      - path: BoneGroup/joint124
+        weight: 1
+      - path: BoneGroup/joint125
+        weight: 1
+      - path: BoneGroup/joint126
+        weight: 1
+      - path: BoneGroup/joint127
+        weight: 1
+      - path: BoneGroup/joint128
+        weight: 1
+      - path: BoneGroup/joint129
+        weight: 1
+      - path: BoneGroup/joint130
+        weight: 1
+      - path: BoneGroup/joint131
+        weight: 1
+      - path: BoneGroup/joint132
+        weight: 1
+      - path: BoneGroup/joint133
+        weight: 1
+      - path: BoneGroup/joint134
+        weight: 1
+      - path: BoneGroup/joint135
+        weight: 1
+      - path: BoneGroup/joint136
+        weight: 1
+      - path: BoneGroup/joint137
+        weight: 1
+      - path: BoneGroup/joint138
+        weight: 1
+      - path: BoneGroup/joint139
+        weight: 1
+      - path: BoneGroup/joint140
+        weight: 1
+      - path: BoneGroup/joint141
+        weight: 1
+      - path: BoneGroup/joint142
+        weight: 1
+      - path: BoneGroup/joint143
+        weight: 1
+      - path: BoneGroup/joint144
+        weight: 1
+      - path: BoneGroup/joint145
+        weight: 1
+      - path: BoneGroup/joint146
+        weight: 1
+      - path: BoneGroup/joint147
+        weight: 1
+      - path: BoneGroup/joint148
+        weight: 1
+      - path: BoneGroup/joint149
+        weight: 1
+      - path: BoneGroup/joint150
+        weight: 1
+      - path: BoneGroup/joint151
+        weight: 1
+      - path: BoneGroup/joint152
+        weight: 1
+      - path: BoneGroup/joint153
+        weight: 1
+      - path: BoneGroup/joint154
+        weight: 1
+      - path: BoneGroup/joint155
+        weight: 1
+      - path: BoneGroup/joint156
+        weight: 1
+      - path: BoneGroup/joint157
+        weight: 1
+      - path: BoneGroup/joint158
+        weight: 1
+      - path: BoneGroup/joint159
+        weight: 1
+      - path: BoneGroup/joint160
+        weight: 1
+      - path: BoneGroup/joint161
+        weight: 1
+      - path: BoneGroup/joint162
+        weight: 1
+      - path: BoneGroup/joint163
+        weight: 1
+      - path: BoneGroup/joint164
+        weight: 1
+      - path: BoneGroup/joint165
+        weight: 1
+      - path: BoneGroup/joint166
+        weight: 1
+      - path: BoneGroup/joint167
+        weight: 1
+      - path: BoneGroup/joint168
+        weight: 1
+      - path: BoneGroup/joint169
+        weight: 1
+      - path: BoneGroup/joint170
+        weight: 1
+      - path: BoneGroup/joint171
+        weight: 1
+      - path: BoneGroup/joint172
+        weight: 1
+      - path: BoneGroup/joint173
+        weight: 1
+      - path: BoneGroup/joint174
+        weight: 1
+      - path: BoneGroup/joint175
+        weight: 1
+      - path: BoneGroup/joint176
+        weight: 1
+      - path: BoneGroup/joint177
+        weight: 1
+      - path: BoneGroup/joint178
+        weight: 1
+      - path: BoneGroup/joint179
+        weight: 1
+      - path: BoneGroup/joint180
+        weight: 1
+      - path: BoneGroup/joint181
+        weight: 1
+      - path: BoneGroup/joint182
+        weight: 1
+      - path: BoneGroup/joint183
+        weight: 1
+      - path: BoneGroup/joint184
+        weight: 1
+      - path: BoneGroup/joint185
+        weight: 1
+      - path: BoneGroup/joint186
+        weight: 1
+      - path: BoneGroup/joint187
+        weight: 1
+      - path: BoneGroup/joint188
+        weight: 1
+      - path: BoneGroup/joint189
+        weight: 1
+      - path: BoneGroup/joint190
+        weight: 1
+      - path: BoneGroup/joint191
+        weight: 1
+      - path: BoneGroup/joint192
+        weight: 1
+      - path: BoneGroup/joint193
+        weight: 1
+      - path: BoneGroup/joint194
+        weight: 1
+      - path: BoneGroup/joint195
+        weight: 1
+      - path: BoneGroup/joint196
+        weight: 1
+      - path: BoneGroup/joint197
+        weight: 1
+      - path: BoneGroup/joint198
+        weight: 1
+      - path: BoneGroup/joint199
+        weight: 1
+      - path: BoneGroup/joint200
+        weight: 1
+      - path: BoneGroup/joint201
+        weight: 1
+      - path: BoneGroup/joint202
+        weight: 1
+      - path: BoneGroup/joint203
+        weight: 1
+      - path: BoneGroup/joint204
+        weight: 1
+      - path: BoneGroup/joint205
+        weight: 1
+      - path: BoneGroup/joint206
+        weight: 1
+      - path: BoneGroup/joint207
+        weight: 1
+      - path: BoneGroup/joint208
+        weight: 1
+      - path: BoneGroup/joint209
+        weight: 1
+      - path: BoneGroup/joint210
+        weight: 1
+      - path: BoneGroup/joint211
+        weight: 1
+      - path: BoneGroup/joint212
+        weight: 1
+      - path: BoneGroup/joint213
+        weight: 1
+      - path: BoneGroup/joint214
+        weight: 1
+      - path: BoneGroup/joint215
+        weight: 1
+      - path: MAIN_MESH1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneGroup
+        weight: 1
+      - path: BoneGroup/joint1
+        weight: 1
+      - path: BoneGroup/joint2
+        weight: 1
+      - path: BoneGroup/joint3
+        weight: 1
+      - path: BoneGroup/joint4
+        weight: 1
+      - path: BoneGroup/joint5
+        weight: 1
+      - path: BoneGroup/joint6
+        weight: 1
+      - path: BoneGroup/joint7
+        weight: 1
+      - path: BoneGroup/joint8
+        weight: 1
+      - path: BoneGroup/joint9
+        weight: 1
+      - path: BoneGroup/joint10
+        weight: 1
+      - path: BoneGroup/joint11
+        weight: 1
+      - path: BoneGroup/joint12
+        weight: 1
+      - path: BoneGroup/joint13
+        weight: 1
+      - path: BoneGroup/joint14
+        weight: 1
+      - path: BoneGroup/joint15
+        weight: 1
+      - path: BoneGroup/joint16
+        weight: 1
+      - path: BoneGroup/joint17
+        weight: 1
+      - path: BoneGroup/joint18
+        weight: 1
+      - path: BoneGroup/joint19
+        weight: 1
+      - path: BoneGroup/joint20
+        weight: 1
+      - path: BoneGroup/joint21
+        weight: 1
+      - path: BoneGroup/joint22
+        weight: 1
+      - path: BoneGroup/joint23
+        weight: 1
+      - path: BoneGroup/joint24
+        weight: 1
+      - path: BoneGroup/joint25
+        weight: 1
+      - path: BoneGroup/joint26
+        weight: 1
+      - path: BoneGroup/joint27
+        weight: 1
+      - path: BoneGroup/joint28
+        weight: 1
+      - path: BoneGroup/joint29
+        weight: 1
+      - path: BoneGroup/joint30
+        weight: 1
+      - path: BoneGroup/joint31
+        weight: 1
+      - path: BoneGroup/joint32
+        weight: 1
+      - path: BoneGroup/joint33
+        weight: 1
+      - path: BoneGroup/joint34
+        weight: 1
+      - path: BoneGroup/joint35
+        weight: 1
+      - path: BoneGroup/joint36
+        weight: 1
+      - path: BoneGroup/joint37
+        weight: 1
+      - path: BoneGroup/joint38
+        weight: 1
+      - path: BoneGroup/joint39
+        weight: 1
+      - path: BoneGroup/joint40
+        weight: 1
+      - path: BoneGroup/joint41
+        weight: 1
+      - path: BoneGroup/joint42
+        weight: 1
+      - path: BoneGroup/joint43
+        weight: 1
+      - path: BoneGroup/joint44
+        weight: 1
+      - path: BoneGroup/joint45
+        weight: 1
+      - path: BoneGroup/joint46
+        weight: 1
+      - path: BoneGroup/joint47
+        weight: 1
+      - path: BoneGroup/joint48
+        weight: 1
+      - path: BoneGroup/joint49
+        weight: 1
+      - path: BoneGroup/joint50
+        weight: 1
+      - path: BoneGroup/joint51
+        weight: 1
+      - path: BoneGroup/joint52
+        weight: 1
+      - path: BoneGroup/joint53
+        weight: 1
+      - path: BoneGroup/joint54
+        weight: 1
+      - path: BoneGroup/joint55
+        weight: 1
+      - path: BoneGroup/joint56
+        weight: 1
+      - path: BoneGroup/joint57
+        weight: 1
+      - path: BoneGroup/joint58
+        weight: 1
+      - path: BoneGroup/joint59
+        weight: 1
+      - path: BoneGroup/joint60
+        weight: 1
+      - path: BoneGroup/joint61
+        weight: 1
+      - path: BoneGroup/joint62
+        weight: 1
+      - path: BoneGroup/joint63
+        weight: 1
+      - path: BoneGroup/joint64
+        weight: 1
+      - path: BoneGroup/joint65
+        weight: 1
+      - path: BoneGroup/joint66
+        weight: 1
+      - path: BoneGroup/joint67
+        weight: 1
+      - path: BoneGroup/joint68
+        weight: 1
+      - path: BoneGroup/joint69
+        weight: 1
+      - path: BoneGroup/joint70
+        weight: 1
+      - path: BoneGroup/joint71
+        weight: 1
+      - path: BoneGroup/joint72
+        weight: 1
+      - path: BoneGroup/joint73
+        weight: 1
+      - path: BoneGroup/joint74
+        weight: 1
+      - path: BoneGroup/joint75
+        weight: 1
+      - path: BoneGroup/joint76
+        weight: 1
+      - path: BoneGroup/joint77
+        weight: 1
+      - path: BoneGroup/joint78
+        weight: 1
+      - path: BoneGroup/joint79
+        weight: 1
+      - path: BoneGroup/joint80
+        weight: 1
+      - path: BoneGroup/joint81
+        weight: 1
+      - path: BoneGroup/joint82
+        weight: 1
+      - path: BoneGroup/joint83
+        weight: 1
+      - path: BoneGroup/joint84
+        weight: 1
+      - path: BoneGroup/joint85
+        weight: 1
+      - path: BoneGroup/joint86
+        weight: 1
+      - path: BoneGroup/joint87
+        weight: 1
+      - path: BoneGroup/joint88
+        weight: 1
+      - path: BoneGroup/joint89
+        weight: 1
+      - path: BoneGroup/joint90
+        weight: 1
+      - path: BoneGroup/joint91
+        weight: 1
+      - path: BoneGroup/joint92
+        weight: 1
+      - path: BoneGroup/joint93
+        weight: 1
+      - path: BoneGroup/joint94
+        weight: 1
+      - path: BoneGroup/joint95
+        weight: 1
+      - path: BoneGroup/joint96
+        weight: 1
+      - path: BoneGroup/joint97
+        weight: 1
+      - path: BoneGroup/joint98
+        weight: 1
+      - path: BoneGroup/joint99
+        weight: 1
+      - path: BoneGroup/joint100
+        weight: 1
+      - path: BoneGroup/joint101
+        weight: 1
+      - path: BoneGroup/joint102
+        weight: 1
+      - path: BoneGroup/joint103
+        weight: 1
+      - path: BoneGroup/joint104
+        weight: 1
+      - path: BoneGroup/joint105
+        weight: 1
+      - path: BoneGroup/joint106
+        weight: 1
+      - path: BoneGroup/joint107
+        weight: 1
+      - path: BoneGroup/joint108
+        weight: 1
+      - path: BoneGroup/joint109
+        weight: 1
+      - path: BoneGroup/joint110
+        weight: 1
+      - path: BoneGroup/joint111
+        weight: 1
+      - path: BoneGroup/joint112
+        weight: 1
+      - path: BoneGroup/joint113
+        weight: 1
+      - path: BoneGroup/joint114
+        weight: 1
+      - path: BoneGroup/joint115
+        weight: 1
+      - path: BoneGroup/joint116
+        weight: 1
+      - path: BoneGroup/joint117
+        weight: 1
+      - path: BoneGroup/joint118
+        weight: 1
+      - path: BoneGroup/joint119
+        weight: 1
+      - path: BoneGroup/joint120
+        weight: 1
+      - path: BoneGroup/joint121
+        weight: 1
+      - path: BoneGroup/joint122
+        weight: 1
+      - path: BoneGroup/joint123
+        weight: 1
+      - path: BoneGroup/joint124
+        weight: 1
+      - path: BoneGroup/joint125
+        weight: 1
+      - path: BoneGroup/joint126
+        weight: 1
+      - path: BoneGroup/joint127
+        weight: 1
+      - path: BoneGroup/joint128
+        weight: 1
+      - path: BoneGroup/joint129
+        weight: 1
+      - path: BoneGroup/joint130
+        weight: 1
+      - path: BoneGroup/joint131
+        weight: 1
+      - path: BoneGroup/joint132
+        weight: 1
+      - path: BoneGroup/joint133
+        weight: 1
+      - path: BoneGroup/joint134
+        weight: 1
+      - path: BoneGroup/joint135
+        weight: 1
+      - path: BoneGroup/joint136
+        weight: 1
+      - path: BoneGroup/joint137
+        weight: 1
+      - path: BoneGroup/joint138
+        weight: 1
+      - path: BoneGroup/joint139
+        weight: 1
+      - path: BoneGroup/joint140
+        weight: 1
+      - path: BoneGroup/joint141
+        weight: 1
+      - path: BoneGroup/joint142
+        weight: 1
+      - path: BoneGroup/joint143
+        weight: 1
+      - path: BoneGroup/joint144
+        weight: 1
+      - path: BoneGroup/joint145
+        weight: 1
+      - path: BoneGroup/joint146
+        weight: 1
+      - path: BoneGroup/joint147
+        weight: 1
+      - path: BoneGroup/joint148
+        weight: 1
+      - path: BoneGroup/joint149
+        weight: 1
+      - path: BoneGroup/joint150
+        weight: 1
+      - path: BoneGroup/joint151
+        weight: 1
+      - path: BoneGroup/joint152
+        weight: 1
+      - path: BoneGroup/joint153
+        weight: 1
+      - path: BoneGroup/joint154
+        weight: 1
+      - path: BoneGroup/joint155
+        weight: 1
+      - path: BoneGroup/joint156
+        weight: 1
+      - path: BoneGroup/joint157
+        weight: 1
+      - path: BoneGroup/joint158
+        weight: 1
+      - path: BoneGroup/joint159
+        weight: 1
+      - path: BoneGroup/joint160
+        weight: 1
+      - path: BoneGroup/joint161
+        weight: 1
+      - path: BoneGroup/joint162
+        weight: 1
+      - path: BoneGroup/joint163
+        weight: 1
+      - path: BoneGroup/joint164
+        weight: 1
+      - path: BoneGroup/joint165
+        weight: 1
+      - path: BoneGroup/joint166
+        weight: 1
+      - path: BoneGroup/joint167
+        weight: 1
+      - path: BoneGroup/joint168
+        weight: 1
+      - path: BoneGroup/joint169
+        weight: 1
+      - path: BoneGroup/joint170
+        weight: 1
+      - path: BoneGroup/joint171
+        weight: 1
+      - path: BoneGroup/joint172
+        weight: 1
+      - path: BoneGroup/joint173
+        weight: 1
+      - path: BoneGroup/joint174
+        weight: 1
+      - path: BoneGroup/joint175
+        weight: 1
+      - path: BoneGroup/joint176
+        weight: 1
+      - path: BoneGroup/joint177
+        weight: 1
+      - path: BoneGroup/joint178
+        weight: 1
+      - path: BoneGroup/joint179
+        weight: 1
+      - path: BoneGroup/joint180
+        weight: 1
+      - path: BoneGroup/joint181
+        weight: 1
+      - path: BoneGroup/joint182
+        weight: 1
+      - path: BoneGroup/joint183
+        weight: 1
+      - path: BoneGroup/joint184
+        weight: 1
+      - path: BoneGroup/joint185
+        weight: 1
+      - path: BoneGroup/joint186
+        weight: 1
+      - path: BoneGroup/joint187
+        weight: 1
+      - path: BoneGroup/joint188
+        weight: 1
+      - path: BoneGroup/joint189
+        weight: 1
+      - path: BoneGroup/joint190
+        weight: 1
+      - path: BoneGroup/joint191
+        weight: 1
+      - path: BoneGroup/joint192
+        weight: 1
+      - path: BoneGroup/joint193
+        weight: 1
+      - path: BoneGroup/joint194
+        weight: 1
+      - path: BoneGroup/joint195
+        weight: 1
+      - path: BoneGroup/joint196
+        weight: 1
+      - path: BoneGroup/joint197
+        weight: 1
+      - path: BoneGroup/joint198
+        weight: 1
+      - path: BoneGroup/joint199
+        weight: 1
+      - path: BoneGroup/joint200
+        weight: 1
+      - path: BoneGroup/joint201
+        weight: 1
+      - path: BoneGroup/joint202
+        weight: 1
+      - path: BoneGroup/joint203
+        weight: 1
+      - path: BoneGroup/joint204
+        weight: 1
+      - path: BoneGroup/joint205
+        weight: 1
+      - path: BoneGroup/joint206
+        weight: 1
+      - path: BoneGroup/joint207
+        weight: 1
+      - path: BoneGroup/joint208
+        weight: 1
+      - path: BoneGroup/joint209
+        weight: 1
+      - path: BoneGroup/joint210
+        weight: 1
+      - path: BoneGroup/joint211
+        weight: 1
+      - path: BoneGroup/joint212
+        weight: 1
+      - path: BoneGroup/joint213
+        weight: 1
+      - path: BoneGroup/joint214
+        weight: 1
+      - path: BoneGroup/joint215
+        weight: 1
+      - path: MAIN_MESH1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
