@@ -73,12 +73,7 @@ We believe this will be resolved in future versions of ARCore as hinted in [the 
 
 ## Additional Credits
 
-We acknowledge and are grateful to these developers for their contributions to open source. You can find the source code, project links, and license information below.
+We acknowledge and are grateful to these developers for their contributions to open source software. You can find the source code, project links, and license information below.
 
-* Project: Bluefruit LE Feather Robot Rover
-* Author: James DeVito
-* [Link to project](https://learn.adafruit.com/bluefruit-feather-robot/code)
-
-* Project: ShadowDrawer
-* Author: Keijiro Takahashi
-* [Link to project](https://github.com/keijiro/ShadowDrawer)
+* [Bluefruit LE Feather Robot Rover](https://learn.adafruit.com/bluefruit-feather-robot/code) by James DeVito
+* [ShadowDrawer](https://github.com/keijiro/ShadowDrawer) by Keijiro Takahashi
