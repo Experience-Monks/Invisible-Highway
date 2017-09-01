@@ -48,7 +48,8 @@ To install the app on an ARCore-compatible device do the following:
 
 * Install all the ARCore pre-requisites on the device (for instance the ARCore service)
 * Pull this repository and using a version of Unity 2017.1 beta9 or later open the `InvisibleHighway.unity` scene
-* Ensure all the project settings conform to [ARCore requirements](https://developers.google.com/ar/develop/unity/getting-started).
+* You will need to import the [ARCore UnityPackage](https://github.com/google-ar/arcore-unity-sdk/releases) and ensure all the project settings conform to [ARCore requirements](https://developers.google.com/ar/develop/unity/getting-started).
+* Switch your platform to Android in Unity build settings
 * Build and Run for your device.
 
 ## Usage
