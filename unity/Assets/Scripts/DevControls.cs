@@ -39,10 +39,18 @@ public class DevControls : MonoBehaviour {
 
 		Color c = ARChromakeyHelper.Instance.maskColor;
 
-		// scale up the GUI (portrait mode)
-		float scalex = Screen.width / 360.0f;
-		float scaley = Screen.height / 640.0f;
-		GUI.matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, new Vector3(scalex, scaley, 1));
+		// scale up GUI
+		float scaleX, scaleY;
+
+		if (Screen.orientation == ScreenOrientation.Portrait) {
+			scaleX = Screen.width / 360.0f;
+			scaleY = Screen.height / 640.0f;
+		} else {
+			scaleX = Screen.width / 640.0f;
+			scaleY = Screen.height / 360.0f;
+		}
+
+		GUI.matrix = Matrix4x4.TRS(new Vector3(0, 0, 0), Quaternion.identity, new Vector3(scaleX, scaleY, 1));
 		
 		// red
 		c.r = GUI.HorizontalSlider(new Rect(LEFT, TOP + HEIGHT * 0, WIDTH, HEIGHT), c.r, 0f, 1f);

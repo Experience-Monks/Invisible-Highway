@@ -34,8 +34,8 @@ public class DebugConsole : MonoBehaviour
 	private Vector2 scrollPosition;
 	private bool show, collapse;
 
-	private const int MARGIN = 20;
-	private const int TOP_MARGIN = 500;
+	private const int MARGIN = 15;
+	private const int TOP_MARGIN = 800;
 
 	private Rect windowRect, titleBarRect;
 	private GUIContent clearLabel, collapseLabel;
@@ -43,8 +43,7 @@ public class DebugConsole : MonoBehaviour
 	void OnEnable ()
 	{
 		// variable initializations
-		windowRect = new Rect (MARGIN, TOP_MARGIN, Screen.width - (MARGIN * 2), Screen.height - (MARGIN * 35));
-		titleBarRect = new Rect (0, 0, 10000, 20);
+		titleBarRect = new Rect (0, 0, 10000, 50);
 		clearLabel = new GUIContent ("Clear", "Clear the contents of the console.");
 		collapseLabel = new GUIContent ("Collapse", "Hide repeated messages.");
 		logs = new List<Log> ();
@@ -63,7 +62,9 @@ public class DebugConsole : MonoBehaviour
 		if (!show) {
 			return;
 		}
+
 		// creates the GUI pop-up window with debug logs
+		windowRect = new Rect (MARGIN, TOP_MARGIN, Screen.width - (MARGIN * 2), Screen.height - (MARGIN * 65));
 		windowRect = GUILayout.Window (123456, windowRect, ConsoleWindow, "Console");
 	}
 
@@ -71,6 +72,7 @@ public class DebugConsole : MonoBehaviour
 	void ConsoleWindow (int windowID)
 	{
 		scrollPosition = GUILayout.BeginScrollView (scrollPosition);
+
 
 		// iterate through recorded logs
 		for (int i = 0; i < logs.Count; i++) {
@@ -83,21 +85,23 @@ public class DebugConsole : MonoBehaviour
 					continue;
 				}
 			}
-
-			GUI.contentColor = logTypeColors [log.type];
-			GUILayout.Label (log.message);
+			GUIStyle style = new GUIStyle();
+			style.fontSize = 36;
+			style.normal.textColor = logTypeColors [log.type];
+			GUILayout.Label (log.message, style);
 		}
 
 		GUILayout.EndScrollView ();
-		GUI.contentColor = Color.white;
+		GUIStyle buttonStyle = new GUIStyle (GUI.skin.button);
+		buttonStyle.normal.textColor = Color.white;
 		GUILayout.BeginHorizontal ();
 
-		if (GUILayout.Button (clearLabel)) {
+		if (GUILayout.Button (clearLabel, buttonStyle, GUILayout.ExpandWidth(true), GUILayout.Height(50))) {
 			logs.Clear ();
 		}
 
 		// toggles the collapse and un-collapse of log messages
-		collapse = GUILayout.Toggle (collapse, collapseLabel, GUILayout.ExpandWidth (false));
+		collapse = GUILayout.Toggle (collapse, collapseLabel, buttonStyle, GUILayout.ExpandWidth(false), GUILayout.Height(50));
 
 		GUILayout.EndHorizontal ();
 
