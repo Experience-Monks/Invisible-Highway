@@ -36,5 +36,5 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-/Assets/GoogleARCore/
-/Assets/GoogleARCore.meta
+unity/Assets/GoogleARCore/
+unity/Assets/GoogleARCore.meta
