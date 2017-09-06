@@ -15,10 +15,18 @@ using UnityEngine;
 
 public class UndoButton : MonoBehaviour
 {
-	// keep the asset rotating on the Y axis to face the camera
-	void Update()
+    private Transform camTransform;
+
+    // cache the camera transform
+    private void Start()
+    {
+        camTransform = FindObjectOfType<ARController>().m_firstPersonCamera.transform;
+    }
+
+    // keep the asset rotating on the Y axis to face the camera
+    void Update()
 	{
-		Vector3 fwd = Camera.main.transform.forward;
+		Vector3 fwd = camTransform.forward;
 		fwd.y = 0.0f;
 	
 		// multiply by (0,90,0) to rotate the asset 90 to the camera
